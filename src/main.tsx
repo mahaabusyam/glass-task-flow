@@ -123,7 +123,7 @@ createRoot(document.getElementById("root")!).render(
           enableSystem={false}
           disableTransitionOnChange={false}
         >
-          <BrowserRouter>
+          <BrowserRouter basename="/glass-task-flow">
             <RouteSyncer />
             <Suspense fallback={<RouteLoading />}>
               <Routes>
