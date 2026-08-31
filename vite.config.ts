@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/glass-task-flow/',
+    base: '/khatawati/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
